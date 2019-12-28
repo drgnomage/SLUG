@@ -5,11 +5,11 @@ on: [push]
 jobs:
   build:
 
-	runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-	steps:
-	- uses: actions/checkout@v1
-	- name: Compile the hellow world c example
-		run:
-			- gcc src/hello_world.c -o hello_world
-			- ./hello_world
+    steps:
+    - uses: actions/checkout@v1
+    - name: Compile the hellow world c example
+        run:
+            - gcc src/hello_world.c -o hello_world
+            - ./hello_world
