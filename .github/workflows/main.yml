@@ -13,4 +13,4 @@ jobs:
       run: |
         - gcc src/hello_world.c -o hello_world
         - chmod +x hello_world
-        - $(pwd)/hello_world
+        - echo $(pwd)/hello_world
