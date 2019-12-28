@@ -11,5 +11,6 @@ jobs:
     - uses: actions/checkout@v1
     - name: Compile the hellow world c example
       run: |
+        - apt install gcc
         - gcc src/hello_world.c -o hello_world
         - echo $PATH
