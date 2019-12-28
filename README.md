@@ -1,7 +1,7 @@
 # SLUG
 ## GIT and OSD for Surrey LUG
 
-### This was mainly copied from a DuckDuckGo search, like most commits to GIT.
+This was mainly copied from a DuckDuckGo search, like most commits to GIT.
 
 sudo apt install git
 
